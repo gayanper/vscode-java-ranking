@@ -1,0 +1,7 @@
+java-ranking-vscode.code-workspace
+target/
+.project
+.classpath
+.settings/
+jars/
+node_modules/
