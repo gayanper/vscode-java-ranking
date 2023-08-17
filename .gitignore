@@ -5,3 +5,7 @@ target/
 .settings/
 jars/
 node_modules/
+.DS_Store
+dist/
+node_modules/
+*.vsix

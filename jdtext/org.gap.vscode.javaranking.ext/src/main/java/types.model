@@ -1,0 +1,10 @@
+Ljava.util.List;/S/List=90
+Ljava.util.Set;/S/Set=90
+Ljava.util.Map;/S/Map=90
+
+
+# Test
+Ljava.util.List;/T/List=90
+Ljava.util.Set;/T/Set=90
+Ljava.util.Map;/T/Map=90
+Lorg.assertj.core.api.Assertions;/T/Assertions=90

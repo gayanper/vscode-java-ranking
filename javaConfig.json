@@ -1,0 +1,7 @@
+{
+    "projects": [
+        "./jdtext/org.gap.vscode.javaranking.ext",
+        "./jdtext/org.gap.vscode.javaranking.test"
+    ],
+    "targetPlatform": "./jdtext/org.gap.vscode.javaranking.target/org.gap.vscode.javaranking.target"
+}

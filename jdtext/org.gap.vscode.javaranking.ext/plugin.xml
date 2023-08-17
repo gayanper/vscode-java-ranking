@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+    <extension point="org.eclipse.jdt.ls.core.delegateCommandHandler">
+        <delegateCommandHandler class="org.gap.vscode.javaranking.ext.internal.CommandHandler">
+            <command id="java.ranking.register" />
+            <command id="java.ranking.unregister" />
+        </delegateCommandHandler>
+    </extension>
+</plugin>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <bundle id="org.gap.vscode.javaranking.ext" version="0.0.0">
+      <category name="ext" />
+   </bundle>
+   <bundle id="org.gap.vscode.javaranking.test" version="0.0.0">
+      <category name="sdk" />
+   </bundle>
+   <bundle id="org.gap.vscode.javaranking.ext.source" version="0.0.0">
+      <category name="sdk" />
+   </bundle>
+   <bundle id="org.gap.vscode.javaranking.test.source" version="0.0.0">
+      <category name="sdk" />
+   </bundle>
+   <category-def name="ext" label="org.gap.vscode.javaranking Extension" />
+   <category-def name="sdk" label="org.gap.vscode.javaranking Extension (Developer Resources)" />
+</site>

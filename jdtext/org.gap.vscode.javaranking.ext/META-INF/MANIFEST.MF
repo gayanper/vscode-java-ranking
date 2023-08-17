@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.gap.vscode.javaranking JDT Extension
+Bundle-SymbolicName: org.gap.vscode.javaranking.ext;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.gap.vscode.javaranking.ext.internal.ExtensionActivator
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.jdt.ls.core,
+ org.eclipse.lsp4j,
+ org.eclipse.jdt.core,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-ClassPath: .
