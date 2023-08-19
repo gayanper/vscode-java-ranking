@@ -29,13 +29,13 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="2.4396144"
-     inkscape:cx="88.53858"
-     inkscape:cy="77.266307"
-     inkscape:window-width="1502"
-     inkscape:window-height="843"
-     inkscape:window-x="0"
-     inkscape:window-y="38"
-     inkscape:window-maximized="0"
+     inkscape:cx="88.128681"
+     inkscape:cy="78.086111"
+     inkscape:window-width="3440"
+     inkscape:window-height="1315"
+     inkscape:window-x="1512"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g6345">
     <sodipodi:guide
        position="6.918392,25.770676"
@@ -413,7 +413,7 @@
        id="g6345"
        transform="matrix(0.72618343,0,0,0.84979478,2.5311044,5.3886343)">
       <rect
-         style="opacity:1;fill:#ebf0f2;fill-opacity:0.710638;stroke:none;stroke-width:0.530687;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#ebf0f2;fill-opacity:0.21160407;stroke:none;stroke-width:0.530687;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
          id="rect21850"
          width="37.205059"
          height="31.914087"
