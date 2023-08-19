@@ -1,10 +1,15 @@
 {
   "name": "vscode-java-ranking",
-  "displayName": "vscode-java-ranking-vscode",
-  "description": "VisualStudio Code vscode-java-ranking Support",
-  "version": "0.0.1",
+  "publisher": "org-gap",
+  "displayName": "vscode-java-ranking",
+  "description": "Better ranking for java completions in vscode",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/gayanper/vscode-java-ranking"
+  },
+  "icon": "icons/project.png",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.81.0"
   },
   "license": "EPL-2.0",
   "categories": [
@@ -23,19 +28,19 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "yarn run package",
+    "vscode:prepublish": "npm run package",
     "compile": "webpack",
     "watch": "webpack --watch",
     "package": "webpack --mode production --devtool hidden-source-map",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "yarn run compile-tests && yarn run compile && yarn run lint",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
     "build-server": "./node_modules/.bin/gulp build-server"
   },
   "devDependencies": {
-    "@types/vscode": "^1.80.0",
+    "@types/vscode": "^1.81.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "20.2.5",
@@ -49,10 +54,8 @@
     "webpack": "^5.85.0",
     "webpack-cli": "^5.1.1",
     "@vscode/test-electron": "^2.3.2",
-    "vscode-languageserver": "8.1.0",
     "gulp": "4.0.2",
     "gulp-rename": "2.0.0",
-    "fsevents": "2.3.2",
     "fs-extra": "11.1.1"
   }
 }
