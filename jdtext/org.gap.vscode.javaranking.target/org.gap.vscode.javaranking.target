@@ -6,7 +6,7 @@
             type="InstallableUnit">
             <unit id="org.eclipse.buildship.feature.group" version="0.0.0" />
             <repository
-                location="https://download.eclipse.org/buildship/updates/e423/snapshots/3.x/3.1.7.v20221108-1729-s/" />
+                location="https://download.eclipse.org/buildship/updates/e423/snapshots/3.x/3.1.7.v20230914-0258-s/" />
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true"
             type="InstallableUnit">
@@ -27,7 +27,7 @@
             <unit id="org.eclipse.equinox.sdk.feature.group" version="0.0.0" />
             <unit id="org.eclipse.jdt.source.feature.group" version="0.0.0" />
             <unit id="org.eclipse.sdk.feature.group" version="0.0.0" />
-            <repository location="https://download.eclipse.org/releases/2023-06" />
+            <repository location="https://download.eclipse.org/releases/2023-09" />
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true"
             type="InstallableUnit">
@@ -36,7 +36,7 @@
         </location>
         <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true"
             type="InstallableUnit">
-            <repository location="https://download.eclipse.org/jdtls/snapshots/repository/latest/" />
+            <repository location="https://download.eclipse.org/jdtls/milestones/1.29.0/repository/" />
             <unit id="org.eclipse.jdt.ls.core" version="0.0.0" />
         </location>
     </locations>
